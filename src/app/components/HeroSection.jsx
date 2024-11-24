@@ -8,9 +8,8 @@ import { CardBody, CardContainer, CardItem } from "./ui/3d-card";
 import { TextGenerateEffect } from "./ui/text-generate-effect";
 
 export default function HeroSection() {
-  const words1 = `Welcome to Arham | Nature ' s Club GGSIPU EDC`;
+  const words1 = `Welcome to Arham | Nature's Club GGSIPU EDC`;
   const words2 = `Where Passion Meets Nature`;
-  const words3 = ``;
 
   return (
     <>
@@ -73,8 +72,8 @@ export default function HeroSection() {
         </div>
           </CardContainer>
         
-        <div className="relative mb-6 mx-2 md:mx-20 text-white font-medium text-balance text-center text-xs sm:text-sm md:text-base lg:text-xl font-font2">
-        Hey there, eco-warriors! Ready to make a difference? Welcome to Arham, GGSIPU ' s one-and-only Nature ' s Club, where we bring together earth lovers, change-makers, and anyone prepared to take steps toward a greener world. We ' re not just here to talk – we ' re here to act!
+        <div className="relative mb-6 mx-2 md:mx-20 text-white font-medium text-balance text-center text-xs sm:text-sm md:text-base lg:text-xl font-font2">{`
+        Hey there, eco-warriors! Ready to make a difference? Welcome to Arham, GGSIPU ' s one-and-only Nature ' s Club, where we bring together earth lovers, change-makers, and anyone prepared to take steps toward a greener world. We ' re not just here to talk – we ' re here to act!`}
         </div>
 
         </section>

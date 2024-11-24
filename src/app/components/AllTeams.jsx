@@ -21,10 +21,10 @@ export default function AllTeam() {
     { 
         title: "2. Content Team", 
         description: (
-            <>
+            <>{`
             Turning ink into songs, the nightingale looks on, <br />
             Content like the sun's rays, lighting up our darkest days. <br />
-            Our stories take flight, like birds in the night!
+            Our stories take flight, like birds in the night!`}
             </>
             ), 
         members: ContentTeam 
@@ -43,10 +43,11 @@ export default function AllTeam() {
     { 
         title: "4. Design Team", 
         description: (
-            <>
+            <>{`
             Designs so fresh, they photosynthesize,<br />
-            Where visuals speak louder than words for nature ' s rise. <br />
+            Where visuals speak louder than words for nature's rise. <br />
             Graphics bloom like wildflowers, spreading beauty that empowers!
+            `}
             </>
             ),
         members: DesignTeam 
