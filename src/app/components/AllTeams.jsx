@@ -23,7 +23,7 @@ export default function AllTeam() {
         description: (
             <>
             Turning ink into songs, the nightingale looks on, <br />
-            Content like the sun's rays, lighting up our darkest days. <br />
+            Content like the sun&aposs rays, lighting up our darkest days. <br />
             Our stories take flight, like birds in the night!
             </>
             ), 
@@ -45,7 +45,7 @@ export default function AllTeam() {
         description: (
             <>
             Designs so fresh, they photosynthesize,<br />
-            Where visuals speak louder than words for nature’s rise. <br />
+            Where visuals speak louder than words for nature &apos s rise. <br />
             Graphics bloom like wildflowers, spreading beauty that empowers!
             </>
             ),
@@ -57,7 +57,7 @@ export default function AllTeam() {
             <>
            Making waves and keeping the planet calm, <br />
            Eco-diplomats turning whispers using their charm, <br />
-           Green PR: turning press releases into nature’s psalm.
+           Green PR: turning press releases into nature &#39 s psalm.
             </>
             ), 
         members: PrTeam 

@@ -8,7 +8,7 @@ import { CardBody, CardContainer, CardItem } from "./ui/3d-card";
 import { TextGenerateEffect } from "./ui/text-generate-effect";
 
 export default function HeroSection() {
-  const words1 = `Welcome to Arham | Nature's Club GGSIPU EDC`;
+  const words1 = `Welcome to Arham | Nature &apos s Club GGSIPU EDC`;
   const words2 = `Where Passion Meets Nature`;
   const words3 = ``;
 
@@ -25,7 +25,7 @@ export default function HeroSection() {
           {/* Arham Logo */}
           <ScrollLink to="/" className="cursor-pointer">
             <img
-              src={'/whitelogo.png'}
+              src={"/whitelogo.png"}
               alt="Arham Logo"
               className="h-12 md:h-24 bg-transparent w-auto py-0.5 md:py-1 px-3 md:px-4 rounded-full"
             />
@@ -56,7 +56,7 @@ export default function HeroSection() {
 
           <div className="flex flex-col">
           <img
-            src={'/herologos/a6.svg'}
+            src={"/herologos/a6.svg"}
             alt="Arham Logo"
             className="h-32 sm:h-48 md:h-60 lg:h-96 w-auto"
             />
@@ -66,7 +66,7 @@ export default function HeroSection() {
           
           
           <img
-            src={'/assets/treelogo.png'}
+            src={"/assets/treelogo.png"}
             alt="Tree Logo"
             className="h-40 sm:h-56 md:h-80 lg:h-96 w-auto"
           />
@@ -74,7 +74,7 @@ export default function HeroSection() {
           </CardContainer>
         
         <div className="relative mb-6 mx-2 md:mx-20 text-white font-medium text-balance text-center text-xs sm:text-sm md:text-base lg:text-xl font-font2">
-        Hey there, eco-warriors! Ready to make a difference? Welcome to Arham, GGSIPU's one-and-only Nature's Club, where we bring together earth lovers, change-makers, and anyone prepared to take steps toward a greener world. We’re not just here to talk – we’re here to act!
+        Hey there, eco-warriors! Ready to make a difference? Welcome to Arham, GGSIPU &apos s one-and-only Nature &apos s Club, where we bring together earth lovers, change-makers, and anyone prepared to take steps toward a greener world. We &apos re not just here to talk – we &apos re here to act!
         </div>
 
         </section>
