@@ -1,21 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Delius&family=Overlock+SC&family=Saira:ital,wght@0,100..900;1,100..900&family=Sniglet:wght@400;800&display=swap');
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  @apply bg-black text-white;
 }
+
+* {
+  box-sizing: border-box;
+}
+
+#section-0, #section-1, #section-2 {
+  height: 100vh; /* Full height for each section */
+  position: relative;
+}
+
+.image {
+  object-fit: cover;
+}
+
+
+.team-section {
+  padding: 50px 20px;
+  background-color: rgb(16, 49, 24); 
+  text-align: center;
+}
+
+.team-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.team-title {
+  font-size: 2.5rem;
+  color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center; 
+  gap: 15px; 
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+  gap: 20px;
+  margin-top: 20px;
+  justify-content: center; 
+  margin-left: auto; 
+  margin-right: auto; 
+
+}
+
+.team-card {
+  background-color: rgb(217, 239, 222); 
+  border: 1px solid rgb(45, 24, 22); 
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.team-card:hover {
+  transform: scale(1.05);
+  background: rgba(180, 246, 160, 0.821); 
+  color: white; 
+}
+
+.team-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin: 0 auto 15px;
+  object-fit: cover;
+  border: 3px solid rgb(36, 47, 39); 
+}
+
+.team-name {
+  font-size: 1.5rem;
+  margin-bottom: 5px;
+  color: rgb(35, 46, 38); 
+}
+
+.team-role {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: rgb(37, 48, 40); 
+  margin-bottom: 10px;
+}
+
+.team-description {
+  font-size: 1rem;
+  color: rgb(36, 47, 39); 
+  margin-bottom: 15px;
+}
+
+.team-social {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.team-social-link {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  transition: transform 0.3s ease;
+  background-color: rgb(35, 46, 38); 
+  border-radius: 50%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.team-social-link:hover {
+  background-color: rgb(35, 46, 38); 
+  transform: scale(1.2);
+}
+
+.arham-logo {
+  width: 132px;
+  height: 132px;
+  display: inline-block; 
+  margin-top: -40px;
+}
+
