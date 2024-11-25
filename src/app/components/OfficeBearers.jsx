@@ -182,12 +182,10 @@ export default function OfficeBearers() {
         <div className="team-grid">
           {teamMembers.map((member, index) => (
             <div key={index} className="team-card">
-              <Image
+              <img
                 src={member.imgSrc}
                 alt={member.name}
-                className="team-img"
-                width={200}
-                height={200}
+                className="team-img h-28 w-28 object-cover"
               />
               <h3 className="team-name">{member.name}</h3>
               <p className="team-role">{member.role}</p>
