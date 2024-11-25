@@ -9,9 +9,9 @@ export default function Footer(){
         <section id="contact">
         <TextHoverEffect text="ARHAM" />
         <div className="bg-slate-900 pb-4 md:pb-8">
-            <div className="bg-emerald-400 p-1 md:p-2 text-black mx-5 md:mx-20 rounded-full font-black font-font1 text-sm md:text-lg mb-6">
+            <div className="bg-emerald-400 p-1 md:p-2 text-black md:mx-48 lg:mx-60 rounded-full font-black font-font1 text-sm md:text-lg mb-6 mx-10 md:tracking-wider">
                 <h1 className="">
-            <Marquee className="">
+            <Marquee className="me-20">
                 Website developed and maintained by Web Team | ARHAM - GGSIPU        
             </Marquee>
                 </h1>
