@@ -51,12 +51,12 @@ const Faculty = () => {
             {/* Content Column */}
             <div className="lg:col-span-8">
               {/* Custom Tabs */}
-              <div className="flex flex-wrap gap-2 border-b-2 border-[#232E26]">
+              <div className="flex flex-wrap gap-1 border-b-2 border-[#232E26]">
                 {tabs.map((tab) => (
                   <button
                     key={tab.id}
                     onClick={() => setActiveTab(tab.id)}
-                    className={`px-4 py-2 text-lg font-bold rounded-t-lg transition-colors
+                    className={`px-1 sm:px-2 md:px-4 py-2 text-sm md:text-lg font-bold rounded-t-lg transition-colors
                       ${activeTab === tab.id 
                         ? 'bg-[#232E26] text-[#D9EFDE]' 
                         : 'bg-transparent text-[#232E26] hover:bg-[#232E26]/10'}`}
@@ -70,7 +70,7 @@ const Faculty = () => {
               <div className="mt-6 space-y-6">
                 {activeTab === 'overview' && (
                   <div className="space-y-6">
-                    <p className="text-lg leading-relaxed text-[#232E26] font-semibold">
+                    <p className="text-sm md:text-lg leading-relaxed text-[#232E26] font-semibold">
                       Dr. Deepak Tripathi is an Assistant Professor at the University School of Automation and Robotics (USAR), GGSIPU. With over 13 years of academic and teaching experience, he has established himself as a distinguished educator and researcher.
                     </p>
                     <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
