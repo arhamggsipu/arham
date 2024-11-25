@@ -16,7 +16,7 @@ const DesignTeam = [
       large: true,
     },
     {
-      image: "/TeamImgs/design/pransh.jpg",
+      image: "/TeamImgs/design/pransh.png",
       name: "Pransh Taank",
       designation: "Co Lead",
       socials: {

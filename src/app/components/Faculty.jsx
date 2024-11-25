@@ -30,14 +30,12 @@ const Faculty = () => {
             {/* Image Column */}
             <div className="lg:col-span-4">
               <div className="lg:sticky lg:top-8">
-                <div className="aspect-square rounded-[40px] overflow-hidden border-4 border-[#232E26] relative shadow-lg lg:m-10 lg:mb-0">
-                  <Image
+                <div className='flex justify-center items-center'>
+                  <img
                     src="/deepakSir.png"
                     alt="Dr. Deepak Tripathi"
-                    fill
-                    className=" object-cover"
-                    priority
-                  />
+                    className="object-cover  h-32 w-32 sm:h-40 sm:w-40 md:w-48 md:h-48 lg:h-60 lg:w-60 rounded-3xl border-4 border-[#232E26]"
+                    />
                 </div>
                 <div className="mt-6 text-center">
                   <h2 className="text-2xl md:text-3xl font-bold text-[#232E26] mb-2">
