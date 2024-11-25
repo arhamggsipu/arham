@@ -8,7 +8,7 @@ export default function OfficeBearers() {
       role: "President",
       description:
         "Commander of the revolution, our President, Arpan Jain Like the mighty Oak, he stands tall and grand, With deep roots and a vision planned. A canopy so wide, it shelters the crew, Our leader, so strong, guiding all we do!",
-      imgSrc: "/assets/images/Arpan1.jpg",
+      imgSrc: "/obimages/arpan.jpg",
       socialLinks: [
         {
           platform: "Instagram",
@@ -32,7 +32,7 @@ export default function OfficeBearers() {
       role: "Vice President",
       description:
         "Master of the Game, our Vice President, Himanshu Raj Flexible and resilient like the Willow, Stands strong, yet calm and mellow. Bending with grace through every storm, A steady hand, a guiding norm.",
-      imgSrc: "/assets/images/Himanshu.jpg",
+      imgSrc: "/obimages/himanshu.jpg",
       socialLinks: [
         {
           platform: "Instagram",
@@ -56,7 +56,7 @@ export default function OfficeBearers() {
       role: "Treasurer",
       description:
         "Keeper of the Finances, our Treasurer, Priyanshu Sharma Like the Walnut, guards the gold,With care and precision, his role is bold. Counts every leaf, ensures zero waste, Correct to a T, efficiency embraced!",
-      imgSrc: "/assets/images/Priyanshu.png",
+      imgSrc: "/obimages/priyanshu.png",
       socialLinks: [
         {
           platform: "Instagram",
@@ -80,7 +80,7 @@ export default function OfficeBearers() {
       role: "Joint Secretary",
       description:
         "Guardian of the Green, our Joint Secretary, Saksham Mittal Like the sturdy Pine, steadfast and true, Supports the team in all that we do. Quick to act and always aware, A force of balance, beyond compare!",
-      imgSrc: "/assets/images/Saksham.jpg",
+      imgSrc: "/obimages/saksham.jpg",
       socialLinks: [
         {
           platform: "Instagram",
@@ -104,7 +104,7 @@ export default function OfficeBearers() {
       role: "General Secretary",
       description:
         "Voice of an Angel, our Secretary, Unnati Jain Organized and steady like the Birch, Upto date on her research. With a schedule so firm and plans so clear, A guiding force we all hold dear!",
-      imgSrc: "/assets/images/Unnati.jpg",
+      imgSrc: "/obimages/unnati.jpg",
       socialLinks: [
         {
           platform: "Instagram",
@@ -128,7 +128,7 @@ export default function OfficeBearers() {
       role: "Operations Lead",
       description:
         "The driving force, our Executive Lead, Gurpreet Singh Satha Like the cedar, devoted and wise, Executes plans with focus in his eyes. A pillar of strength, both bold and keen, Steers the club towards a vision so green!",
-      imgSrc: "/assets/images/Gurpreet.jpg",
+      imgSrc: "/obimages/gurpreet.jpg",
       socialLinks: [
         {
           platform: "Instagram",
@@ -152,7 +152,7 @@ export default function OfficeBearers() {
       role: "Student Lead",
       description:
         "Advocate of the herd, our student Lead, Chinta Akshay Like the blooming Magnolia, full of grace, Leads with passion and sets the pace. A guiding light for the team, Inspires all to chase the green dream!",
-      imgSrc: "/assets/images/Akshay.jpg",
+      imgSrc: "/obimages/akshay.jpg",
       socialLinks: [
         {
           platform: "Instagram",
