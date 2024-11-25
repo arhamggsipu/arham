@@ -55,9 +55,9 @@ export default function AllTeam() {
         title: "5. PR Team", 
         description: (
             <>
-           Making waves and keeping the planet calm, <br />
-           Eco-diplomats turning whispers using their charm, <br />
-           Green PR: turning press releases into nature &#39 s psalm.
+           {`Making waves and keeping the planet calm,`} <br />
+           {`Eco-diplomats turning whispers using their charm,`} <br />
+           {`Green PR: turning press releases into nature's psalm.`}
             </>
             ), 
         members: PrTeam 
