@@ -1,4 +1,4 @@
-"use client";
+"use client"; // Ensure this is a client component
 
 import "./globals.css";
 import Header from "./components/Header";
@@ -10,15 +10,12 @@ export default function RootLayout({ children }) {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    const handleLoad = () => setLoading(false);
+    // Show the preloader for 4 seconds
+    const timer = setTimeout(() => {
+      setLoading(false);
+    }, 3000);
 
-    if (document.readyState === "complete") {
-      handleLoad();
-    } else {
-      window.addEventListener("load", handleLoad);
-    }
-
-    return () => window.removeEventListener("load", handleLoad);
+    return () => clearTimeout(timer); // Cleanup the timeout when the component unmounts
   }, []);
 
   return (
@@ -27,7 +24,9 @@ export default function RootLayout({ children }) {
         <link rel="icon" href="/arhamlogosq.png" />
       </head>
       <body>
-        {loading ? <Preloader /> : (
+        {loading ? ( // Show Preloader while loading is true
+          <Preloader />
+        ) : (
           <>
             <Header />
             {children}
