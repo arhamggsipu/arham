@@ -38,6 +38,7 @@ module.exports = {
         'bg2': "url('/assets/bg2.jpg')",
         'bg3': "url('/assets/bg3.jpg')",
         'bg4': "url('/assets/bg4.jpg')",
+        'bgblock': "url('/block.jpg')",
       },
       backdropBlur: {
         'xs': '2px',  // Custom backdrop-blur with 2px blur effect
