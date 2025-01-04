@@ -13,7 +13,7 @@ export default function RootLayout({ children }) {
     // Show the preloader for 4 seconds
     const timer = setTimeout(() => {
       setLoading(false);
-    }, 3000);
+    }, 100);
 
     return () => clearTimeout(timer); // Cleanup the timeout when the component unmounts
   }, []);
