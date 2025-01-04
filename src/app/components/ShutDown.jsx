@@ -15,7 +15,7 @@ export default function ShutDown(){
     </p>
     <p className="text-gray-700 mb-6 md:text-xl text-balance">
       Please ask the <span className="font-semibold">Arpan Jain (Chair of Arham)</span> to address the pending dues and
-      acknowledge the team's efforts to bring this website back online.
+      acknowledge the team&apos;s efforts to bring this website back online.
     </p>
     <div className="flex justify-center">
       <a
