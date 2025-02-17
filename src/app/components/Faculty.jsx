@@ -32,7 +32,7 @@ const Faculty = () => {
               <div className="lg:sticky lg:top-8">
                 <div className='flex justify-center items-center'>
                   <img
-                    src="/deepakSir.png"
+                    src="/dpksir1.jpg"
                     alt="Dr. Deepak Tripathi"
                     className="object-cover  h-32 w-32 sm:h-40 sm:w-40 md:w-48 md:h-48 lg:h-60 lg:w-60 rounded-3xl border-4 border-[#232E26]"
                     />

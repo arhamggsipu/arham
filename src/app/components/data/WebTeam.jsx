@@ -49,14 +49,7 @@ const WebTeam = [
       },
       large: false,
     },
-    {
-      image: "/TeamImgs/web/priyanshu.jpg",
-      name: "Priyanshu",
-      designation: "Coordinator",
-      socials: {
-      },
-      large: false,
-    },
+   
     
   ];
   
