@@ -2,7 +2,6 @@
 
 import { Link as ScrollLink } from "react-scroll"; 
 
-import Image from "next/image";
 import React from "react";
 import { CardBody, CardContainer, CardItem } from "./ui/3d-card";
 import { TextGenerateEffect } from "./ui/text-generate-effect";

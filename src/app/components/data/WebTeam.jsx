@@ -2,7 +2,7 @@ const WebTeam = [
     {
       image: "/TeamImgs/web/sups.jpg",
       name: "Supril Kumar",
-      designation: "Web Lead",
+      designation: "Web Team Lead",
       socials: {
         linkedin: "https://www.linkedin.com/in/supril-kumar/",
         instagram: "https://www.instagram.com/_supril_/",
